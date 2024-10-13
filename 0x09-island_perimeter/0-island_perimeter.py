@@ -2,6 +2,7 @@
 """Dsa Interview
 """
 
+
 def island_perimeter(grid):
     """
     Calculate the perimeter of the island in the grid.    
@@ -32,5 +33,4 @@ def island_perimeter(grid):
                 # Check right
                 if j == cols - 1 or grid[i][j + 1] == 0:
                     perimeter += 1
-
     return perimeter
