@@ -1,13 +1,12 @@
 #!/usr/bin/python3
 """Dsa Interview
 """
+
 def island_perimeter(grid):
     """
-    Calculate the perimeter of the island in the grid.
-    
+    Calculate the perimeter of the island in the grid.    
     Parameters:
     - grid: List of lists representing the map where 0 is water and 1 is land.
-    
     Returns:
     - Integer representing the perimeter of the island.
     """
